@@ -1,9 +1,10 @@
-import { MainLayoutModule } from './components/layout/mainLayout/main-layout.module';
+import { MainLayoutModule } from './pages/mainLayout/modulo/main-layout.module';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+
 
 
 @NgModule({

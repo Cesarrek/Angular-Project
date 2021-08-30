@@ -4,12 +4,12 @@
   grid-template-rows: 0.7fr 2fr 2fr 0.4fr;
   height: 100vh;
   width: auto;
+  background-color: lightslategray;
 }
 
 .header {
-  grid-column: 1 / 13;
+  grid-column: 2 / 12;
   grid-row: 1;
-
 }
 
 .sidebar{
@@ -18,11 +18,13 @@
 }
 
 .footer {
-  grid-column: 1 / 13;
+  grid-column: 2 / 12;
   grid-row: 4;
 }
 
 .main {
-  grid-column: 3 / 13;
+  grid-column: 2 / 12;
   grid-row: 2 / 4;
+  background-color: rgb(180, 215, 238)
+
 }
