@@ -1,0 +1,27 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  background-color: rgb(119, 87, 87);
+  height: 100%;
+}
+
+.item {
+  grid-column: 2 / 3;
+  margin-top: 1rem;
+}
+
+.botao {
+  background-color: black;
+  color: antiquewhite;
+  padding: 1rem;
+  border-radius: 2rem;
+  border: 0.2rem salmon solid;
+  font: bold;
+  font-weight: 900;
+}
+
+.botao:active {
+  color: rgb(212, 211, 209);
+  border: 0.2rem rgb(39, 197, 163) solid;
+  font-size: 1rem;
+}
