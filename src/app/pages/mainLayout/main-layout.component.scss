@@ -4,7 +4,7 @@
   grid-template-rows: 0.7fr 2fr 2fr 0.4fr;
   height: 100vh;
   width: auto;
-  background-color: lightslategray;
+  background-color: rgb(138, 152, 167);
 }
 
 .header {
@@ -25,6 +25,6 @@
 .main {
   grid-column: 2 / 12;
   grid-row: 2 / 4;
-  background-color: rgb(180, 215, 238)
+  background-color: rgb(203, 214, 223)
 
 }
