@@ -1,5 +1,7 @@
-## Esse projeto tem como objetivo práticar, aplicando todos conhecimentos adquiridos. 
+!Portuguese 
 
-## Primeiro projeto em Angular será utilizando coisas básicas, como também utilizando CSS puro sem uso de Bibliotecas / Frameworks CSS.
+# Esse projeto tem como objetivo práticar, aplicando todos conhecimentos adquiridos. 
 
-## A ideia inicial é colocar em prática os conhecimentos sobre a Programação Orientada a Objetos, como 
+# Primeiro projeto em Angular será utilizando coisas básicas, como também utilizando CSS puro sem uso de Bibliotecas / Frameworks CSS.
+
+# A ideia inicial é colocar em prática os conhecimentos sobre a Programação Orientada a Objetos, como 
