@@ -7,6 +7,7 @@
 
 .item {
   grid-column: 2 / 3;
+  grid-row: 1 / 2;
   margin-top: 1rem;
 }
 
@@ -24,4 +25,10 @@
   color: rgb(212, 211, 209);
   border: 0.2rem rgb(39, 197, 163) solid;
   font-size: 1rem;
+}
+
+.getProd {
+  grid-column: 2 /10;
+  grid-row: 2 / 7;
+  margin-top: 1rem;
 }

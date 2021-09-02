@@ -1,0 +1,31 @@
+<div class="listando">
+
+  <table>
+    <tr class="corCabecalho">
+      <th>Id</th>
+      <th>Nome</th>
+      <th>Preço</th>
+
+    </tr>
+    <tr class="lista" *ngFor="let produto of produtos">
+      <td class="espaco">{{produto.id}}</td>
+      <td class="espaco">{{produto.nome}}</td>
+      <td class="espaco">{{produto.preco | currency: 'BRL'}}</td>
+      <td class="espaco2">
+        <i>
+        <a
+          routerLink="/produtos/update/{{produto.id}}"
+          class="editarDeletar">
+          Editar
+        </a>
+        </i>
+
+        <i>
+          <a routerLink="" class="editarDeletar">Deletar</a>
+        </i>
+      </td>
+     </tr>
+  </table>
+
+</div>
+

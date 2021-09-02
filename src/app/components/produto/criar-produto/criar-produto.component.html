@@ -1,1 +1,27 @@
-<p>criar-produto works!</p>
+<div>
+  <form class="formulario">
+    <input
+      class="entrada"
+      name="nome"
+      placeholder="Nome"
+      [(ngModel)]="produtoTest.nome"
+    />
+
+    <input
+      class="entrada"
+      type="text"
+      placeholder="Preço (R$)"
+      [(ngModel)]="produtoTest.preco"
+    />
+  </form>
+</div>
+
+<div>
+  <button class="botao" (click)="criarProduto()">
+    Salvar
+  </button>
+
+  <button class="botao" (click)="cancelar()">
+    Cancelar
+  </button>
+</div>

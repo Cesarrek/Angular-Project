@@ -1,0 +1,53 @@
+.listando {
+  color: azure;
+  background-color: rgb(124, 51, 51);
+  border-radius: 8px;
+  padding: 2rem;
+  font-size: 1.5rem;
+
+}
+
+.lista {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  list-style: none;;
+}
+
+.espaco {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 1rem;
+}
+
+.espaco2 {
+  padding-left: 5rem;
+  padding-right: 5rem;
+  padding-top: 1rem;
+  color: rgb(38, 182, 248);
+}
+
+.corCabecalho {
+  color: rgb(197, 226, 30);
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.editarDeletar {
+  font-style: normal;
+  margin-right: 1rem;
+}
+
+a {
+  border: none;
+  list-style: none;
+  color: rgb(241, 178, 94);
+  text-decoration: none;
+  font-family: monospace;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+a:hover{
+  color: bisque;
+
+}
