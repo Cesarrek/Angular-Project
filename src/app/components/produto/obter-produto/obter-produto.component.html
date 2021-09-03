@@ -13,15 +13,16 @@
       <td class="espaco">{{produto.preco | currency: 'BRL'}}</td>
       <td class="espaco2">
         <i>
-        <a
-          routerLink="/produtos/update/{{produto.id}}"
-          class="editarDeletar">
-          Editar
-        </a>
+          <a
+            routerLink="/produtos/update/{{produto.id}}"
+            class="editarDeletar">
+            Editar
+          </a>
         </i>
 
         <i>
-          <a routerLink="" class="editarDeletar">Deletar</a>
+          <a routerLink="/produtos/delete/{{produto.id}}"
+           class="editarDeletar">Deletar</a>
         </i>
       </td>
      </tr>

@@ -34,4 +34,10 @@ export class ProdutoService {
     return this.http.put<IProduto>(url, produto)
   }
 
+  // Verbo Http - Delete
+  public delete(id: string): Observable<IProduto> {
+    const url = `${this.baseUrl}/${id}`
+    return this.http.delete<IProduto>(url)
+  }
+
 }

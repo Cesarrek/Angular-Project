@@ -1,0 +1,55 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  background-color: rgb(194, 116, 61);
+  color: azure;
+  height: 100%;
+}
+
+.text{
+  grid-column: 2 / 4;
+  grid-row: 1 / 2;
+  margin-top: 4rem;
+  font-size: 2rem;
+}
+
+.item {
+  grid-column: 2 / 4;
+  grid-row: 2 / 3;
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+input {
+  padding: 1rem;
+  margin-top: 0.5rem;
+}
+
+.botoes {
+  grid-column: 2 / 4;
+  grid-row: 3 / 10;
+}
+
+button{
+  padding: 0.8rem;
+  border-radius: 5px;
+  margin-right: 0.5rem;
+  font-size: 1rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 700;
+  background-color: rgb(60, 66, 66);
+  color: rgb(75, 134, 224);
+  border: none;
+}
+
+button:hover{
+  color: rgb(224, 141, 141);
+  border: 3px solid rgb(104, 89, 89);
+}
+
+label {
+  margin-top: 2rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1.3rem;
+}
