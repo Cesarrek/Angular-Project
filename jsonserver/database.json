@@ -1,0 +1,29 @@
+{
+  "produtos": [
+    {
+      "id": 1,
+      "nome": "Tv 55 Polegadas",
+      "preco": 3500
+    },
+    {
+      "id": 2,
+      "nome": "Rádio",
+      "preco": 420
+    },
+    {
+      "nome": "Jacaré",
+      "preco": "doidon",
+      "id": 3
+    },
+    {
+      "nome": "Jacare",
+      "preco": "Vesgo",
+      "id": 4
+    },
+    {
+      "nome": "Meu Gato",
+      "preco": "Peludo",
+      "id": 5
+    }
+  ]
+}
